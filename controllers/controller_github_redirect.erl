@@ -26,6 +26,7 @@
     ]).
 
 -include_lib("controller_html_helper.hrl").
+-include_lib("include/zotonic_release.hrl").
 
 html(Context) ->
     QState = z_context:get_q("state", Context),
